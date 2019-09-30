@@ -1,7 +1,9 @@
 header.header-primary
-  .logo
-    = link_to '/'
-      = image_tag 'logo.svg', alt: 'The Last Poetry'
+  .caption
+    .row
+      = link_to '/'
+        / = image_tag 'logo.svg', alt: 'The Last Poetry'
+        h2 = data.pages.home.hero.title
 
   a.nav-button href='#'
     = image_tag 'nav-open.svg', class: 'open'
