@@ -5,6 +5,19 @@
   top: 0;
   z-index: 999;
 
+  .caption {
+    @extend %container;
+  }
+  .row {
+    a {
+      color: $text-color !important;
+  
+      &:hover {
+        text-decoration: none !important;
+      }
+    }
+  }
+
   .logo {
     width: 173px;
     height: 80px;

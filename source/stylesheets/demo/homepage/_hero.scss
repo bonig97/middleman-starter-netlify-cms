@@ -10,45 +10,36 @@
     @extend %container;
   }
   .row {
-    margin-left: 15px !important;
-  }
-
-  h1 {
-    @extend %column;
-    @extend %col-xs-8;
-    margin: 0;
-    padding-top: 20%;
-    color: $title-color;
-
+    img {
+      width: 500px;
+      height: 500px;
+      margin: 0;
+      padding: 60px;
+      display: block;
+    }
     @media screen and (max-width: $screen-md-max){
-      padding-top: 15%;
+      img {
+        width: 400px;
+        height: 400px;
+        margin: 0;
+        padding: 40px;
+      }
+    }
+    @media screen and (max-width: $screen-sm-max){
+      img {
+        width: 300px;
+        height: 300px;
+        margin: 0;
+        padding: 20px;
+      }
     }
     @media screen and (max-width: $screen-xs-max){
-      padding-top: 10%;
+      img {
+        width: 200px;
+        height: 200px;
+        margin: 0;
+        padding: 10px;
+      }
     }
-  }
-  a {
-    color: $main-color !important;
-
-    &:hover {
-      text-decoration: none !important;
-    }
-  }
-  h2 {
-    @extend %column;
-    @extend %col-xs-8;
-    margin: 0;
-    padding-top: 20%;
-    color: $main-color;
-
-    @media screen and (max-width: $screen-md-max){
-      padding-top: 15%;
-    }
-    @media screen and (max-width: $screen-xs-max){
-      padding-top: 10%;
-    }
-  }
-  @media screen and (max-width: 400px){
-    padding-bottom: 50%;
   }
 }
