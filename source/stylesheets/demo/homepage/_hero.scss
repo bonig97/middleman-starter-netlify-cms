@@ -11,32 +11,32 @@
   }
   .row {
     img {
-      width: 500px;
-      height: 500px;
+      width: 450px;
+      height: 450px;
       margin: 0;
-      padding: 60px;
+      padding: 50px;
       display: block;
     }
     @media screen and (max-width: $screen-md-max){
       img {
-        width: 400px;
-        height: 400px;
+        width: 250px;
+        height: 350px;
         margin: 0;
         padding: 40px;
       }
     }
     @media screen and (max-width: $screen-sm-max){
       img {
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
         margin: 0;
         padding: 20px;
       }
     }
     @media screen and (max-width: $screen-xs-max){
       img {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         margin: 0;
         padding: 10px;
       }
